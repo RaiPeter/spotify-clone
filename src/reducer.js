@@ -20,6 +20,17 @@ switch (action.type) {
             ...state,
             token:action.token
         }
+        case "SET_PLAYING":
+      return {
+        ...state,
+        playing: action.playing,
+      };
+
+    case "SET_ITEM":
+      return {
+        ...state,
+        item: action.item,
+      };
         case 'SET_PLAYLISTS':
             return{
                 ...state,
