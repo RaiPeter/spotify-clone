@@ -36,7 +36,7 @@ switch (action.type) {
         case 'SET_PLAYLISTS':
             return{
                 ...state,
-                playlists: action.playlist
+                playlists: action.playlists
             }
         case "SET_SPOTIFY":
                 return {
