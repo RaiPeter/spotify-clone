@@ -12,7 +12,7 @@ function Player({ spotify }) {
             <Body spotify={spotify}/>
             </div>
 
-            <Footer />
+            <Footer spotify={spotify} />
             {/* <h1>Welcome to spotify</h1> */}
         </div>
     )
